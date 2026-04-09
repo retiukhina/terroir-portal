@@ -14,11 +14,11 @@ spec:
 
 ---
 apiVersion: backstage.io/v1alpha1
-kind: User
+kind: Component
 metadata:
   # IMPORTANT: This name must match your GitHub username exactly (usually lowercase)
   name: retiukhina 
 spec:
-  profile:
-    displayName: Tania
-    email: john@example.com
+  type: website
+  lifecycle: production
+  owner: tracking-team
