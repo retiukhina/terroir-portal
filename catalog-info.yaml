@@ -22,4 +22,3 @@ spec:
   profile:
     displayName: Tania
     email: john@example.com
-  memberOf: [guests]
