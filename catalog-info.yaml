@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terroir-portal
+  description: An example of a Backstage application.
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: john@example.com
+  lifecycle: experimental
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  # IMPORTANT: This name must match your GitHub username exactly (usually lowercase)
+  name: retiukhina 
+spec:
+  profile:
+    displayName: Tania
+    email: john@example.com
+  memberOf: [guests]
